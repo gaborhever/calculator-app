@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+.calculator-body {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 3px solid yellowgreen;
+    border-radius: 10px;
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px -3px rgba(150,150,150,0.75);
+    -webkit-box-shadow: 10px 10px 10px -3px rgba(150,150,150,0.75);
+    -moz-box-shadow: 10px 10px 10px -3px rgba(150,150,150,0.75);
+}
+
+.szam_mezo {
+    width: 180px;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+button {
+    font-size: 18px;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: lightgray;
+    transition: 0.9s;
+}
+
+.CE_gomb, .egyenlo_gomb {
+    background-color: lightcoral;
+}
+
+.CE_gomb:hover, .egyenlo_gomb:hover {
+    background-color: coral;
+}
